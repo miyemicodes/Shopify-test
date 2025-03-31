@@ -23,12 +23,12 @@ export default function Section2() {
 						Key Points:
 					</h3>
 
-					<ul className="flex flex-col items-start justify-start gap-[12px] divide-y divide-[#E0E0E0]">
+					<ul className="flex flex-col items-start justify-start gap-[12px] divide-y divide-[#E3E3E8]">
 						<li className="flex items-start justify-center gap-12 ">
 							<span className="font-bold text-[33px] leading-[150%] tracking-[0.5px] text-[#EE6F4B]">
 								97%
 							</span>
-							<p className="font-normal text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] pb-1">
+							<p className="font-normal text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] pb-2">
 								Dogs choose our dog food over leading brands because of its real
 								functional ingredients and delicious flavor.
 							</p>
@@ -38,13 +38,13 @@ export default function Section2() {
 							<span className="font-bold text-[33px] leading-[150%] tracking-[0.5px] text-[#EE6F4B]">
 								84%
 							</span>
-							<p className="font-normal text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] pb-1">
+							<p className="font-normal text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] pb-2">
 								Our dog food provides superior nutrition and a patented
 								probiotic for optimal nutrient absorption.
 							</p>
 						</li>
 
-						<li className="flex items-start justify-center gap-12 pb-1">
+						<li className="flex items-start justify-center gap-12 pb-2">
 							<span className="font-bold text-[33px] leading-[150%] tracking-[0.5px] text-[#EE6F4B]">
 								92%
 							</span>
