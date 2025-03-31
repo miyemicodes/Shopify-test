@@ -4,7 +4,7 @@ import DogSnack from "../assets/Dog-snack.png";
 
 export default function Section2() {
 	return (
-		<section className="py-20 px-2 md:py-12 lg:py-20 flex flex-col md:flex-row  items-center justify-center md:gap- lg:gap-7.5 bg-[#F8F8F8] md:px-20 lg:px-28">
+		<section className="py-20 px-2 md:py-12 lg:py-20 flex flex-col lg:flex-row  items-center justify-center gap-5 lg:gap-7.5 bg-[#F8F8F8] md:px-20 lg:px-28">
 			<div className="flex-1 flex flex-col items-center justify-center md:gap-3 lg:gap-5 xl:gap-12">
 				<div className="flex flex-col items-start justify-start gap-4.5">
 					<h2 className="font-semibold md:text-[25px] lg:text-[30px] xl:text-[40px] leading-[120%] tracking-[0.25px] text-[#161723] ">
