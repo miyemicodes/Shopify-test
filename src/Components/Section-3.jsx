@@ -5,7 +5,7 @@ import DogSnack from "../assets/Dodsnack.png";
 
 export default function Section3() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-20 md:gap-20 px-4 py-10 md:px-20 lg:px-28 bg-[#F9F9FB]">
+		<section className="flex flex-col items-center justify-center gap-20 md:gap-20 px-4 py-10 md:px-20 lg:px-28">
 			<div className="flex flex-col lg:flex-row items-center justify-center gap-[30px]">
 				<div className="flex-1">
 					<img

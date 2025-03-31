@@ -14,7 +14,7 @@ import ApplePay from "../assets/ApplePay.png";
 
 export default function Header() {
 	return (
-		<header className="py-10 px-2 flex flex-col items-center justify-center gap-12 md:py-20 lg:px-40 bg-[#F8F8F8] ">
+		<header className="py-10 px-2 flex flex-col items-center justify-center gap-12 md:py-20 lg:px-40">
 			<h1 className="font-semibold text-[25px] md:text-[40px] leading-[120%] tracking-[0.25px] text-center text-[#161723]">
 				What makes us different makes them stronger
 			</h1>
