@@ -9,7 +9,7 @@ import Shield from "../assets/shield.png";
 import Paypal from "../assets/Paypal.png";
 import Visa from "../assets/Visa.png";
 import Card from "../assets/Card.png";
-import GPay from "../assets/Gpay.png";
+import GooglePay from "../assets/GooglePay.png";
 import ApplePay from "../assets/ApplePay.png";
 
 export default function Header() {
@@ -128,7 +128,7 @@ export default function Header() {
 						</li>
 						<li>
 							<img
-								src={GPay}
+								src={GooglePay}
 								alt="Google Pay"
 								className="w-[39.2px] h-[24px] shrink-0"
 							/>
