@@ -15,7 +15,7 @@ export default function Section3() {
 					/>
 				</div>
 				<div className="flex flex-col items-start justify-start gap-4.5">
-					<h2 className="font-semibold text-[40px] leading-[120%] tracking-[0.25px] text-[#161723] ">
+					<h2 className="font-semibold text-[25px] md:text-[40px]  leading-[120%] tracking-[0.25px] text-[#161723] ">
 						Improve overall gastrointestinal health for better nutrient
 						absorption
 					</h2>
@@ -32,7 +32,7 @@ export default function Section3() {
 
 			<div className="flex flex-col items-center justify-center">
 				<div className="flex flex-col items-start justify-start gap-4.5">
-					<h2 className="font-semibold text-[40px] leading-[120%] tracking-[0.25px] text-[#161723] ">
+					<h2 className="font-semibold text-[25px] md:text-[40px]  leading-[120%] tracking-[0.25px] text-[#161723] ">
 						Prebiotics nourish the beneficial gut bacteria, supporting digestive
 						health
 					</h2>

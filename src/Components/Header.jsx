@@ -5,6 +5,12 @@ import PetFood from "../assets/pet-food.png";
 import PetBowl from "../assets/pet-bowl.png";
 import HeaderFood from "../assets/Header-food.png";
 import VetFood from "../assets/vet-1.png";
+import Shield from "../assets/shield.png";
+import Paypal from "../assets/Paypal.png";
+import Visa from "../assets/Visa.png";
+import Card from "../assets/Card.png";
+import GPay from "../assets/Gpay.png";
+import ApplePay from "../assets/ApplePay.png";
 
 export default function Header() {
 	return (
@@ -51,7 +57,7 @@ export default function Header() {
 					<img
 						src={HeaderFood}
 						alt="A picture of food"
-						className="w-[300px] h-[300px] md:w-[350px] lg:h-[280px] shrink-0"
+						className="w-[300px] h-[300px] md:w-[350px] lg:h-[280px] lg:w-[300px] shrink-0"
 					/>
 				</div>
 
@@ -90,17 +96,49 @@ export default function Header() {
 				</ul>
 			</div>
 
-			<div>
-				<div>
-					<p>Get your dog's healthy meal today!</p>
-				</div>
-				<div>
+			<div className="flex flex-col items-center gap-4.5">
+				<p className="bg-[#EE6F4B] px-[40px] py-[12px] rounded-md font-semibold text-[16px] leading-[150%] tracking-[0.5px] text-[#FFFFFF]">
+					Get your dog's healthy meal today!
+				</p>
+				<div className="flex items-center justify-center gap-6">
 					<div>
-						<img src="" />
+						<img src={Shield} />
 					</div>
-					<ul>
+					<ul className="flex items-center justify-center gap-4">
 						<li>
-							<img src="" />
+							<img
+								src={Paypal}
+								alt="Paypal"
+								className="w-[39.2px] h-[24px] shrink-0"
+							/>
+						</li>
+						<li>
+							<img
+								src={Visa}
+								alt="Visa"
+								className="w-[39.2px] h-[24px] shrink-0"
+							/>
+						</li>
+						<li>
+							<img
+								src={Card}
+								alt="Card"
+								className="w-[39.2px] h-[24px] shrink-0"
+							/>
+						</li>
+						<li>
+							<img
+								src={GPay}
+								alt="Google Pay"
+								className="w-[39.2px] h-[24px] shrink-0"
+							/>
+						</li>
+						<li>
+							<img
+								src={ApplePay}
+								alt="Apple Pay"
+								className="w-[39.2px] h-[24px] shrink-0"
+							/>
 						</li>
 					</ul>
 				</div>
