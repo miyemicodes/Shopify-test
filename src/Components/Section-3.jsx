@@ -5,16 +5,17 @@ import DogSnack from "../assets/Dodsnack.png";
 
 export default function Section3() {
 	return (
-		<section>
-			<div className="flex flex-col items-center justify-center">
-				<div className="md:w-[570px] md:h-[570px]">
+		<section className="flex flex-col items-center justify-center gap-20 md:gap-20 px-4 py-10 md:px-20 lg:px-28 bg-[#F9F9FB]">
+			<div className="flex flex-col lg:flex-row items-center justify-center gap-[30px]">
+				<div className="flex-1">
 					<img
 						src={DogSnack}
 						alt="Happy Dog Bites"
-						className="md:w-[570px] md:h-[570px]"
+						className="md:h-[480px] w-full"
 					/>
 				</div>
-				<div className="flex flex-col items-start justify-start gap-4.5">
+
+				<div className="flex-1 flex flex-col items-start justify-start gap-4.5">
 					<h2 className="font-semibold text-[25px] md:text-[40px]  leading-[120%] tracking-[0.25px] text-[#161723] ">
 						Improve overall gastrointestinal health for better nutrient
 						absorption
@@ -30,8 +31,8 @@ export default function Section3() {
 				</div>
 			</div>
 
-			<div className="flex flex-col items-center justify-center">
-				<div className="flex flex-col items-start justify-start gap-4.5">
+			<div className="flex flex-col lg:flex-row items-center justify-center gap-[30px]">
+				<div className="flex-1 flex flex-col items-start justify-start gap-4.5">
 					<h2 className="font-semibold text-[25px] md:text-[40px]  leading-[120%] tracking-[0.25px] text-[#161723] ">
 						Prebiotics nourish the beneficial gut bacteria, supporting digestive
 						health
@@ -43,11 +44,12 @@ export default function Section3() {
 						ultimately supporting digestive health.
 					</p>
 				</div>
-				<div className="md:w-[570px] md:h-[570px]">
+
+				<div className="flex-1">
 					<img
 						src={Snack}
 						alt="Happy Dog Bites"
-						className="md:w-[570px] md:h-[570px]"
+						className="md:h-[480px] w-full shrink-0"
 					/>
 				</div>
 			</div>
