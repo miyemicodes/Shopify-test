@@ -8,12 +8,12 @@ import VetFood from "../assets/vet-1.png";
 
 export default function Header() {
 	return (
-		<header className="py-10 px-2 flex flex-col items-center justify-center gap-12 md:py-20 lg:px-40 ">
+		<header className="py-10 px-2 flex flex-col items-center justify-center gap-12 md:py-20 lg:px-40 bg-[#F8F8F8] ">
 			<h1 className="font-semibold text-[25px] md:text-[40px] leading-[120%] tracking-[0.25px] text-center text-[#161723]">
 				What makes us different makes them stronger
 			</h1>
 
-			<div className="grid items-center justify-center gap-7.5 grid-cols-1 md:grid-cols-[auto_auto_auto] ">
+			<div className="grid items-center justify-center gap-7.5 grid-cols-1 lg:grid-cols-[auto_auto_auto] ">
 				<ul className="flex flex-col items-start gap-10">
 					<li className="flex items-start justify-start gap-6 ">
 						<img
@@ -51,7 +51,7 @@ export default function Header() {
 					<img
 						src={HeaderFood}
 						alt="A picture of food"
-						className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] shrink-0"
+						className="w-[300px] h-[300px] md:w-[350px] lg:h-[280px] shrink-0"
 					/>
 				</div>
 
